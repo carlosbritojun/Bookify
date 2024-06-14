@@ -1,0 +1,8 @@
+@Bookify.Api_HostAddress = http://localhost:5000
+
+@start = "04-22-2024"
+@end = "05-20-2024"
+GET {{Bookify.Api_HostAddress}}/api/apartments?startDate={{start}}&endDate={{end}}
+Accept: application/json
+
+###
